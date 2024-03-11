@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Question1: Demonstrate all the text formatting tags in a single HTML page: -->
+
+
+    <b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint ullam culpa repellendus maxime suscipit molestias, nam reiciendis temporibus aspernatur! Fugiat nulla porro, odio atque temporibus explicabo ex vel facilis maxime.</b>
+    
+    <hr>
+    <i>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam fugit sunt suscipit, fugiat eaque modi architecto, illo earum maxime eveniet corrupti, facilis sed obcaecati. Deserunt ad molestiae dignissimos exercitationem commodi.</i>
+
+    <hr>
+    <del>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut sapiente aspernatur exercitationem harum quae totam doloremque maxime, sed culpa blanditiis corporis? Corrupti deserunt illo earum minus commodi sequi quo nemo!</del>
+
+    <hr>
+    <u>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat iure voluptas atque necessitatibus dolor. Autem aspernatur ipsum, aliquam earum nemo praesentium odit, quod aut ex quam at voluptatum, fugiat dignissimos?</u>
+
+    <hr>
+    <h4>This is whithout subscript:</h4>
+    CH4 + O2 => H2O + CO2
+    <h4>This is with subscript:</h4>
+    CH<sub>4</sub> + O<sub>2</sub> => H<sub>2</sub>O + CO<sub>2</sub>
+
+    <hr>
+    <h4>This is without superscript:</h4><br>
+    (a+b)2 = a2 + b2 + 2ab<br>
+    <h4>This is with superscript:</h4><br>
+    (a+b)<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup> + 2ab
+
+
+    <!--Question2: Write an HTML code to draw the following figure-->
+
+
+    <pre>   
+            *
+        *   *   *
+    *   *   *   *   *
+*   *   *   *   *   *   *   
+    </pre>
+
+
+
+    <!--Question3: Create a web page to print the following table-->
+
+    <table border = "4px">
+        <tr>
+        <th rowspan = "2">Sr.<br>No.</th>
+        <th rowspan = "2">Course</th>
+        <th rowspan = "2">Subject</th>
+        <th colspan = "2">Marks</th>
+        <th colspan = "2" >Category</th>
+         <th rowspan="2">Practical/<br>Theory</th>
+        </tr>
+        <tr>
+            <td>Internal</td>
+            <td>External</td>
+            <td>Internal</td>
+            <td>External</td>
+        </tr>
+        <tr>
+            <td rowspan  = "4">1</td>
+            <td rowspan = "4">MBA</td>
+            <td>Management Accounting</td>
+            <td>30</td>
+            <td>70</td>
+            <td>-</td>
+            <td>&#9989;</td>
+            <td>Theory</td>
+        </tr>
+        <tr>
+            <td>Information Technology</td>
+            <td>30</td>
+            <td>70</td>
+            <td>-</td>
+            <td>&#9989;</td>
+            <td>T and P</td>
+        </tr>
+        <tr>
+            <td>Basics of Marketing</td>
+            <td>30</td>
+            <td>70</td>
+            <td>-</td>
+            <td>&#9989;</td>
+            <td>Theory</td>
+        </tr>
+        <tr>
+            <td>E-Commerce</td>
+            <td>50</td>
+            <td>-</td>
+            <td>&#9989;</td>
+            <td>-</td>
+            <td>Theory</td>
+        </tr>
+        <tr>
+           <td rowspan = "6">2</td>
+           <td rowspan = "6">MCM</td>
+           <td>Visual Basic</td>
+           <td>30</td>
+           <td>70</td>
+           <td>-</td>
+           <td>&#9989;</td>
+           <td>T and P</td>
+        </tr>
+        <tr>
+            <td>Internet Technology</td>
+            <td>30</td>
+            <td>70</td>
+            <td>-</td>
+            <td>&#9989;</td>
+            <td>T and P</td>
+        </tr>
+        <tr>
+            <td>Network Technology</td>
+            <td>30</td>
+            <td>70</td>
+            <td>-</td>
+            <td>&#9989;</td>
+            <td>T and P</td>
+        </tr>
+        <tr>
+            <td>VB.Net</td>
+            <td>30</td>
+            <td>70</td>
+            <td>-</td>
+            <td>&#9989;</td>
+            <td>T and P</td>
+        </tr>
+        <tr>
+            <td>Linux</td>
+            <td>30</td>
+            <td>70</td>
+            <td>-</td>
+            <td>&#9989;</td>
+            <td>T and P</td>
+        </tr>
+        <tr>
+            <td>ISA</td>
+            <td>50</td>
+            <td>-</td>
+            <td>&#9989;</td>
+            <td>-</td>
+            <td>Theory</td>
+        </tr>
+
+       
+    </table>
+
+
+
+</body>
+</html>
